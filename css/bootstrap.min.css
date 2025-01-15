@@ -541,6 +541,13 @@ progress {
   margin-right: auto;
   margin-left: auto;
 }
+.container-custom {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 2rem);
+  padding-left: var(--bs-gutter-x, 2rem);
+  margin-right: auto;
+  margin-left: auto;
+}
 @media (min-width: 576px) {
   .container,
   .container-sm {
@@ -6098,6 +6105,9 @@ fieldset:disabled .btn {
 .w-75 {
   width: 75% !important;
 }
+.w-90 {
+  width: 90% !important;
+}
 .w-100 {
   width: 100% !important;
 }
@@ -6648,6 +6658,9 @@ fieldset:disabled .btn {
 .pt-5 {
   padding-top: 3rem !important;
 }
+.pt-6 {
+  padding-top: 7rem !important;
+}
 .pe-0 {
   padding-right: 0 !important;
 }
@@ -6896,13 +6909,13 @@ fieldset:disabled .btn {
   border-radius: 0 !important;
 }
 .rounded-1 {
-  border-radius: 0px !important;
+  border-radius: 10px !important;
 }
 .rounded-2 {
-  border-radius: 0px !important;
+  border-radius: 15px !important;
 }
 .rounded-3 {
-  border-radius: 0px !important;
+  border-radius: 20px !important;
 }
 .rounded-circle {
   border-radius: 50% !important;
