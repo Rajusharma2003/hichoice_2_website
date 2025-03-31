@@ -47,9 +47,14 @@
 }
 
 .btn-lg-square {
-    width: 48px;
-    height: 48px;
+    width: 32px;
+    height: 32px;
 }
+.btn-lg-square2 {
+    width: 45px;
+    height: 45px;
+}
+
 
 .btn-square,
 .btn-sm-square,
@@ -73,11 +78,11 @@
 }
 
 .navbar .navbar-nav .nav-link {
-    margin-right: 30px;
-    padding: 40px 0;
+    margin-right: 28px;
+    padding: 39px 0;
     color: var(--light);
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
     outline: none;
