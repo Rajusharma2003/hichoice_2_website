@@ -8,7 +8,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="https://hichoicesproduct.netlify.app/img/hlogo2.png" rel="icon">
+    <link href="img/hlogo.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,12 +37,11 @@
 <body>
     
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark  py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        
-        <div class="col-md-6 col-5 mt-1">
+    <nav class="shadow navbar navbar-expand-lg bg-white navbar-dark  py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="mt-1 col-6 col-md-4" >
             <a href="index.html" class="navbar-brand ms-2 ms-lg-0">
                 <!-- <h1 class="mb-0 text-primary text-uppercase">logo</h1> -->
-                 <img class="img-fluid col-md-4 col-9  " style="z-index: 999;" src="img/hlogo.png" alt="logo">
+                 <img class="img-fluid col-md-7" style="z-index: 999;" src="img/hlogo.png" alt="logo">
             </a>                    
         </div>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -50,11 +49,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="index.html" class="nav-item nav-link active">Home</a>
                 <!-- <a href="product.html" class="nav-item nav-link">product</a> -->
                 <div class="nav-item dropdown">
                     <!-- <a href="product.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product</a> -->
-                <a href="#" class="nav-item nav-link active">Product</a>
+                    <a href="#" class="nav-item nav-link">Product</a>
                     <!-- <div class="dropdown-menu m-0">
                         <a href="HammerProdcut.html" class="dropdown-item">HAMMER SERIES</a>
                         <a href="BLACKHAWK.html" class="dropdown-item">BLACK HAWK SERIES</a>
@@ -69,6 +68,14 @@
                 <a href="blog2.html" class="nav-item nav-link">Blog</a>
             </div>
             <!-- <a href="#" class="btn btn-primary rounded-0 py-2 px-lg-4 d-none d-lg-block">Contact Us<i class="fa fa-arrow-right ms-3"></i></a> -->
+        </div>
+        <div class="d-none d-md-flex" style="margin-left: 200px;">
+            <div class="d-flex pt-1 m-n1">
+                <a class="btn btn-lg-square btn-dark rounded-circle text-info m-1" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-lg-square btn-dark rounded-circle m-1" style="color: #0d6efd;" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-lg-square btn-dark rounded-circle text-danger m-1" href=""><i class="fab fa-youtube"></i></a>
+                <a class="btn btn-lg-square btn-dark rounded-circle text-danger m-1" href=""><i class="fab fa-instagram"></i></a>
+            </div>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -89,127 +96,92 @@
     <!-- Page Header End -->
    
     <!-- This is for the catogary section -->
-   <div class="container-custom">
-    <h1 class="pb-3">Product by Category</h1>
-    <div class="testimonial-slider ">
-            <!-- Card 1 -->
-            <div class="card border-0 rounded-0 bg-dark text-white">
-                <img class=" rounded-circle w-75" style="margin-left: 26px;" src="img/product/hp1c.jpg" alt="Title" />
-                <!-- <div class="card-img-overlay border-0 rounded-0 ">
-                    <h5 class="card-title">Charu Singh</h5>
-                    <p class="lh-sm mb-0">Assistant Designer & Fashion Model</p>
-                    <p class="lh-sm mb-0">Silai By Bharti Mittal</p>
-                </div> -->
-                <!-- <button style="background-color: #3fbd33; color: white; padding: 10px 20px; border: none;  cursor: pointer;">
-                    <a style="color: white; text-decoration: none;" href="#">Read more <i class="bi bi-arrow-right"></i></a>
-                </button> -->
-            </div>
-       
-            <!-- Card 2 -->
-            <div class="card border-0 rounded-0 bg-dark text-white">
-                <img class=" rounded-circle w-75" style="margin-left: 26px;" src="img/product/hp2c.jpg" alt="Title" />
-                <!-- <div class="card-img-overlay border-0 rounded-0">
-                    <h5 class="card-title">Ranjeet Singh</h5>
-                    <p class="lh-sm mb-0">Senior Fashion Designer</p>
-                    <p class="lh-sm mb-0">Pooja Peshoria</p>
-                </div> -->
-                <!-- <button style="background-color: #3fbd33; color: white; padding: 10px 20px; border: none;  cursor: pointer;">
-                    <a style="color: white; text-decoration: none;" href="#">Read more <i class="bi bi-arrow-right"></i></a>
-                </button> -->
-            </div>
-       
-            <!-- Card 3 -->
-            <div class="card border-0 rounded-0 bg-dark text-white">
-                <img class=" rounded-circle w-75" style="margin-left: 26px;" src="img/product/hp3c.jpg" alt="Title" />
-                <!-- <div class="card-img-overlay border-0 rounded-0">
-                    <h5 class="card-title">Shubham Goel</h5>
-                    <p class="lh-sm mb-0">Assistant CAD Designer</p>
-                    <p class="lh-sm mb-0">A Deez Design</p>
-                </div> -->
-                <!-- <button style="background-color: #3fbd33; color: white; padding: 10px 20px; border: none;  cursor: pointer;">
-                    <a style="color: white; text-decoration: none;" href="#">Read more <i class="bi bi-arrow-right"></i></a>
-                </button> -->
-            </div>
+    <div class="container">
+        <h1 class="pb-3 text-dark">Product by Category</h1>
+        <div class="testimonial-slider">
+                <!-- Card 1 -->
+                <div class="card border-0 rounded-0  text-white">
+                    <img class=" rounded-circle w-75" style="margin-left: 26px;" src="img/product/hp1c.jpg" alt="Title" />
+                    <!-- <div class="card-img-overlay border-0 rounded-0 ">
+                        <h5 class="card-title">Charu Singh</h5>
+                        <p class="lh-sm mb-0">Assistant Designer & Fashion Model</p>
+                        <p class="lh-sm mb-0">Silai By Bharti Mittal</p>
+                    </div> -->
+                    <!-- <button style="background-color: #3fbd33; color: white; padding: 10px 20px; border: none;  cursor: pointer;">
+                        <a style="color: white; text-decoration: none;" href="#">Read more <i class="bi bi-arrow-right"></i></a>
+                    </button> -->
+                    <p class="text-dark text-center">Heater</p>
+                </div>
         
-            <!-- Card 4 -->
-            <div class="card border-0 rounded-0 bg-dark text-white">
-                <img class=" rounded-circle w-75" style="margin-left: 26px;" src="img/product/hp4c.jpg" alt="Title" />
-                <!-- <div class="card-img-overlay border-0 rounded-0">
-                    <h5 class="card-title">Deepak Kumar</h5>
-                    <p class="lh-sm mb-0">Senior Fashion Designer</p>
-                    <p class="lh-sm mb-0">Pooja Peshoria</p>
-                </div> -->
-                <!-- <button style="background-color: #3fbd33; color: white; padding: 10px 20px; border: none;  cursor: pointer;">
-                    <a style="color: white; text-decoration: none;" href="#">Read more <i class="bi bi-arrow-right"></i></a>
-                </button> -->
-            </div>
-       
-            <!-- Card 5 -->
-            <div class="card border-0 rounded-0 bg-dark text-white">
-                <img class=" rounded-circle w-75" style="margin-left: 26px;" src="img/product/hp5c.jpg" alt="Title" />
-                <!-- <div class="card-img-overlay border-0 rounded-0">
-                    <h5 class="card-title">Priya Aggarwal</h5>
-                    <p class="lh-sm mb-0">Assistant Designer</p>
-                    <p class="lh-sm mb-0">Torani India</p>
-                </div> -->
-                <!-- <button style="background-color: #3fbd33; color: white; padding: 10px 20px; border: none;  cursor: pointer;">
-                    <a style="color: white; text-decoration: none;" href="#">Read more <i class="bi bi-arrow-right"></i></a>
-                </button> -->
-            </div>
+                <!-- Card 2 -->
+                <div class="card border-0 rounded-0  text-white">
+                    <img class=" rounded-circle w-75" style="margin-left: 26px;" src="img/product/hp2c.jpg" alt="Title" />
+                    <!-- <div class="card-img-overlay border-0 rounded-0">
+                        <h5 class="card-title">Ranjeet Singh</h5>
+                        <p class="lh-sm mb-0">Senior Fashion Designer</p>
+                        <p class="lh-sm mb-0">Pooja Peshoria</p>
+                    </div> -->
+                    <!-- <button style="background-color: #3fbd33; color: white; padding: 10px 20px; border: none;  cursor: pointer;">
+                        <a style="color: white; text-decoration: none;" href="#">Read more <i class="bi bi-arrow-right"></i></a>
+                    </button> -->
+                    <p class="text-dark text-center">Fan</p>
+                </div>
         
-            <!-- Card 6 -->
-            <div class="card border-0 rounded-0 bg-dark text-white">
-                <img class=" rounded-circle w-75" style="margin-left: 26px;" src="img/product/hp6c.jpg" alt="Title" />
-                <!-- <div class="card-img-overlay border-0 rounded-0">
-                    <h5 class="card-title">Ruchika Saxena</h5>
-                    <p class="lh-sm mb-0">Business Head</p>
-                    <p class="lh-sm mb-0">Cleo Designer Boutique</p>
-                </div> -->
-                <!-- <button style="background-color: #3fbd33; color: white; padding: 10px 20px; border: none;  cursor: pointer;">
-                    <a style="color: white; text-decoration: none;" href="#">Read more <i class="bi bi-arrow-right"></i></a>
-                </button> -->
-            </div>
-       
-            <!-- Card 7 -->
-            <div class="card border-0 rounded-0 bg-dark text-white">
-                <img class="rounded-circle w-75" style="margin-left: 26px;" src="img/product/hp7c.jpg" alt="Title" />
-                <!-- <div class="card-img-overlay border-0 rounded-0">
-                    <h5 class="card-title">Kirti</h5>
-                    <p class="lh-sm mb-0">Senior Fashion Designer</p>
-                    <p class="lh-sm mb-0">Incense</p>
-                </div> -->
-                <!-- <button style="background-color: #3fbd33; color: white; padding: 10px 20px; border: none;  cursor: pointer;">
-                    <a style="color: white; text-decoration: none;" href="#">Read more <i class="bi bi-arrow-right"></i></a>
-                </button> -->
-            </div>    
-
-            <!-- Card 8  -->
-            <div class="card border-0 rounded-0 bg-dark text-white">
-                <img class=" rounded-circle w-75" style="margin-left: 26px;" src="img/product/hp8c.jpg" alt="Title" />
-                <!-- <div class="card-img-overlay border-0 rounded-0">
-                    <h5 class="card-title">Lucky Sharma</h5>
-                    <p class="lh-sm mb-0">Assistant CAD Designer</p>
-                    <p class="lh-sm mb-0">A Deez Design</p>
-                </div> -->
-                <!-- <button style="background-color: #3fbd33; color: white; padding: 10px 20px; border: none;  cursor: pointer;">
-                    <a style="color: white; text-decoration: none;" href="#">Read more <i class="bi bi-arrow-right"></i></a>
-                </button> -->
-            </div>
+                <!-- Card 3 -->
+                <div class="card border-0 rounded-0  text-white">
+                    <img class=" rounded-circle w-75" style="margin-left: 26px;" src="img/product/hp3c.jpg" alt="Title" />
+                    <!-- <div class="card-img-overlay border-0 rounded-0">
+                        <h5 class="card-title">Shubham Goel</h5>
+                        <p class="lh-sm mb-0">Assistant CAD Designer</p>
+                        <p class="lh-sm mb-0">A Deez Design</p>
+                    </div> -->
+                    <!-- <button style="background-color: #3fbd33; color: white; padding: 10px 20px; border: none;  cursor: pointer;">
+                        <a style="color: white; text-decoration: none;" href="#">Read more <i class="bi bi-arrow-right"></i></a>
+                    </button> -->
+                    <p class="text-dark text-center">geyser</p>
+                </div>
+            
+                <!-- Card 4 -->
+                <div class="card border-0 rounded-0  text-white">
+                    <img class=" rounded-circle w-75" style="margin-left: 26px;" src="img/product/hp4c.jpg" alt="Title" />
+                    <!-- <div class="card-img-overlay border-0 rounded-0">
+                        <h5 class="card-title">Deepak Kumar</h5>
+                        <p class="lh-sm mb-0">Senior Fashion Designer</p>
+                        <p class="lh-sm mb-0">Pooja Peshoria</p>
+                    </div> -->
+                    <!-- <button style="background-color: #3fbd33; color: white; padding: 10px 20px; border: none;  cursor: pointer;">
+                        <a style="color: white; text-decoration: none;" href="#">Read more <i class="bi bi-arrow-right"></i></a>
+                    </button> --> 
+                    <p class="text-dark text-center">Mixer</p>
+                </div>
+        
+                <!-- Card 8  -->
+                <div class="card border-0 rounded-0  text-white">
+                    <img class=" rounded-circle w-75" style="margin-left: 26px;" src="img/product/hp8c.jpg" alt="Title" />
+                    <!-- <div class="card-img-overlay border-0 rounded-0">
+                        <h5 class="card-title">Lucky Sharma</h5>
+                        <p class="lh-sm mb-0">Assistant CAD Designer</p>
+                        <p class="lh-sm mb-0">A Deez Design</p>
+                    </div> -->
+                    <!-- <button style="background-color: #3fbd33; color: white; padding: 10px 20px; border: none;  cursor: pointer;">
+                        <a style="color: white; text-decoration: none;" href="#">Read more <i class="bi bi-arrow-right"></i></a>
+                    </button> -->
+                    <p class="text-dark text-center">Iron</p>
+                </div>
+        </div>
     </div>
-   </div>
      <!-- End catogary section -->
-
 
      <!--4 Heater section -->
     <div class="container pt-6">
-        <h1 class="pb-3">Heater</h1>
+        <h1 class="pb-3 text-dark">Heater</h1>
         <div class="row justify-content-center">
             <!-- Card -->
             <div class="col-md-3 ">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" style="border-radius: 10px;" src="img/product/2.jpg" alt="Title" />
+                <div class="card text-white border-0">
+                    <img class="card-img" style="border-radius: 10px;"  src="img/product/2.jpg" alt="Title"/>
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
-                        <h4 class="card-title text-dark">Product : Name</h4>
+                        <h4 class="card-title text-dark">Product : Name </h4>
                         <p class="card-text text-dark">Product : description</p>
                         <button style="border-radius: 10px; background-color: #3fbd33; color: white; padding: 10px 20px; border: none;  cursor: pointer;">
                             <a style="color: white; text-decoration: none;" href="#">Inquiry Now <i class="bi bi-arrow-right"></i></a>
@@ -219,7 +191,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card  text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/3.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -232,7 +204,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3   pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/4.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -245,7 +217,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/5.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -265,7 +237,7 @@
         <div class="row justify-content-center">
             <!-- Card -->
             <div class="col-md-3 ">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/6.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -278,7 +250,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/7.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -291,7 +263,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3   pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/8.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -304,7 +276,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/1.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -325,7 +297,7 @@
         <div class="row justify-content-center">
             <!-- Card -->
             <div class="col-md-3 ">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/17.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -338,7 +310,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/18.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -351,7 +323,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3   pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/19.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -364,7 +336,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/20.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -378,15 +350,14 @@
         </div>
      </div>
      <!-- End another card section -->
-    <!-- End Heater section -->
 
     <!--1 This is the product Fan card section -->
      <div class="container pt-6">
-        <h1 class="pb-3">Fan section</h1>
+        <h1 class="pb-3 text-dark">Fan section</h1>
         <div class="row justify-content-center">
             <!-- Card -->
             <div class="col-md-3 ">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/10.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -399,7 +370,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/11.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -416,11 +387,11 @@
 
     <!--2 This is the Table fan section -->
     <div class="container pt-6">
-        <h1 class="pb-3">Table Fan</h1>
+        <h1 class="pb-3 text-dark">Table Fan</h1>
         <div class="row justify-content-center">
             <!-- Card -->
             <div class="col-md-3 ">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/9.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -433,7 +404,7 @@
             </div>
             <!-- Card -->
             <!-- <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="https://i0.wp.com/www.summercoolindia.com/wp-content/uploads/2024/09/Pedestal-fannew.jpg?fit=640%2C738&ssl=1" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -446,7 +417,7 @@
             </div> -->
             <!-- Card -->
             <!-- <div class="col-md-3   pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="https://i0.wp.com/www.summercoolindia.com/wp-content/uploads/2024/09/Pedestal-fannew.jpg?fit=640%2C738&ssl=1" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -459,7 +430,7 @@
             </div> -->
             <!-- Card -->
             <!-- <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="https://i0.wp.com/www.summercoolindia.com/wp-content/uploads/2024/09/Pedestal-fannew.jpg?fit=640%2C738&ssl=1" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -476,11 +447,11 @@
 
     <!--3 electric iron section -->
     <div class="container pt-6">
-        <h1 class="pb-3">ELECTRIC IRON</h1>
+        <h1 class="pb-3 text-dark">ELECTRIC IRON</h1>
         <div class="row justify-content-center">
             <!-- Card -->
             <div class="col-md-3 ">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/25.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -493,7 +464,7 @@
             </div>
             <!-- Card -->
             <!-- <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="https://i0.wp.com/www.summercoolindia.com/wp-content/uploads/2024/09/Pedestal-fannew.jpg?fit=640%2C738&ssl=1" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -506,7 +477,7 @@
             </div> -->
             <!-- Card -->
             <!-- <div class="col-md-3   pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="https://i0.wp.com/www.summercoolindia.com/wp-content/uploads/2024/09/Pedestal-fannew.jpg?fit=640%2C738&ssl=1" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -519,7 +490,7 @@
             </div> -->
             <!-- Card -->
             <!-- <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="https://i0.wp.com/www.summercoolindia.com/wp-content/uploads/2024/09/Pedestal-fannew.jpg?fit=640%2C738&ssl=1" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -534,15 +505,13 @@
      </div>
     <!-- End electric iron section -->
 
-    
-
     <!--5 Celling Fan -->
     <div class="container pt-6">
-        <h1 class="pb-3">Celling Fan</h1>
+        <h1 class="pb-3 text-dark">Celling Fan</h1>
         <div class="row justify-content-center">
             <!-- Card -->
             <div class="col-md-3 ">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/10.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -555,7 +524,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/11.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -568,7 +537,7 @@
             </div>
             <!-- Card -->
             <!-- <div class="col-md-3   pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="https://i0.wp.com/www.summercoolindia.com/wp-content/uploads/2024/09/Pedestal-fannew.jpg?fit=640%2C738&ssl=1" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -581,7 +550,7 @@
             </div> -->
             <!-- Card -->
             <!-- <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="https://i0.wp.com/www.summercoolindia.com/wp-content/uploads/2024/09/Pedestal-fannew.jpg?fit=640%2C738&ssl=1" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -598,11 +567,11 @@
 
      <!--6 IMMERSION ROD Section  -->
      <div class="container pt-6">
-        <h1 class="pb-3">IMMERSION ROD</h1>
+        <h1 class="pb-3 text-dark">IMMERSION ROD</h1>
         <div class="row justify-content-center">
             <!-- Card -->
             <div class="col-md-3 ">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/23.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -615,7 +584,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/hp26.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -628,7 +597,7 @@
             </div>
             <!-- Card -->
             <!-- <div class="col-md-3   pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="https://i0.wp.com/www.summercoolindia.com/wp-content/uploads/2024/09/Pedestal-fannew.jpg?fit=640%2C738&ssl=1" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -641,7 +610,7 @@
             </div> -->
             <!-- Card -->
             <!-- <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="https://i0.wp.com/www.summercoolindia.com/wp-content/uploads/2024/09/Pedestal-fannew.jpg?fit=640%2C738&ssl=1" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -658,11 +627,11 @@
     
     <!--7 geyser section -->
     <div class="container pt-6">
-        <h1 class="pb-3">GEYSER</h1>
+        <h1 class="pb-3 text-dark">GEYSER</h1>
         <div class="row justify-content-center">
             <!-- Card -->
             <div class="col-md-3 ">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/12.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -675,7 +644,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/13.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -688,7 +657,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3   pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/14.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -701,7 +670,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/15.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -718,11 +687,11 @@
 
      <!--7 electric wire section -->
     <div class="container pt-6">
-        <h1 class="pb-3">ELECTRIC WIRE</h1>
+        <h1 class="pb-3 text-dark">ELECTRIC WIRE</h1>
         <div class="row justify-content-center">
             <!-- Card -->
             <div class="col-md-3 ">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/21.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -735,7 +704,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/hp29.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -748,7 +717,7 @@
             </div>
             <!-- Card -->
             <!-- <div class="col-md-3   pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/14.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -761,7 +730,7 @@
             </div> -->
             <!-- Card -->
             <!-- <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/15.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -777,12 +746,12 @@
      <!-- End geyser section -->
 
      <!--7 home applience section -->
-     <div class="container pt-6">
-        <h1 class="pb-3">KITCHEN APPLIANCES</h1>
+     <div class="container pt-6 pb-5">
+        <h1 class="pb-3 text-dark">KITCHEN APPLIANCES</h1>
         <div class="row justify-content-center">
             <!-- Card -->
             <div class="col-md-3 ">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/16.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -795,7 +764,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/hp27.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -808,7 +777,7 @@
             </div>
             <!-- Card -->
             <div class="col-md-3   pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/hp28.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -821,7 +790,7 @@
             </div>
             <!-- Card -->
             <!-- <div class="col-md-3  pt-6 pt-md-0 pt-lg-0">
-                <div class="card bg-dark text-white">
+                <div class="card text-white border-0">
                     <img class="card-img" style="border-radius: 10px;" src="img/product/15.jpg" alt="Title" />
                     <div style="border-radius: 10px;" class="card-img-overlay shadow-lg h-50  bg-white w-90 mx-auto top-100 translate-middle-y">
                         <h4 class="card-title text-dark">Product : Name</h4>
@@ -835,7 +804,6 @@
         </div>
      </div>
      <!-- End geyser section -->
-
 
     <!-- Footer Start -->
     <div class="container-fluid bg-secondary text-light footer mt-5 pt-5 wow fadeIn " data-wow-delay="0.1s">
